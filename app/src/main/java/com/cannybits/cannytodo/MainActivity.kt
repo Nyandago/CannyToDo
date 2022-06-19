@@ -11,13 +11,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var todoList = mutableListOf(
-            Todo("Welcome to Cannyville", true),
-                    Todo("Welcome to Cannyville", false),
-                    Todo("I'm new to Cannyville", true),
+            Todo("Do the dishes", true),
+                    Todo("Morning jogging", false),
+                    Todo("Publish an article to Medium App", true),
                     Todo("Let's go to Cannyville", false),
-                    Todo("I love Cannyville", true),
-                    Todo("Greetings from Cannyville", false),
-                    Todo("Cannyville is Amazing", false),
+                    Todo("Call Mom", true),
+                    Todo("Read mail", false),
+                    Todo("Drink a glass of juice", false),
         )
 
         val adapter = TodoAdapter(todoList)
